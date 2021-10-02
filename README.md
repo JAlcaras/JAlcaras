@@ -5,17 +5,17 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
 </div>
-
+</div>
 <h4 align="center"> 
 	🚧  Perfil 🚀 Em construção...  🚧
 </h4>
 
 
-<div>
-    <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
-</div>	
-
-
+<iframe width="100%" height="100%" 
+        src="http://alcaras.42web.io/?i=1" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+ 
 <!-- Css -->
 <style>
   @import 'https://fonts.googleapis.com/css?family=Ubuntu';
@@ -129,29 +129,25 @@
 </style>
 <!-- HTML -->
 <h1 class="afterclose">
-  Você fechou o terminal ! --> <button class="open"><a href="https://github.com/JAlcaras"> Redirecionar para o git ?</a></button>
+  You Closed Terminal ! --> <button class="open">reopen ?</button>
 </h1>
 <div class="window">
   <div class="controls">
     <button class="buttons close" id="close"></button>
     <button class="buttons maximize" href="#"></button>
     <button class="buttons minimize" href="#"></button>
-    <div class="title">Terminal</div>
+    <div class="title">Gnome Terminal</div>
   </div>
   <div class="bash">
     <!-- Terminal sem comando -->
-    <span class="span">[alcaras@linux-pc ~]:$</span>
-    <span class="type-it">sudo su</span>
-    
+    <span class="span">[adnan@linux-pc ~]:$</span>
     <br />
     <!-- Terminal com comando -->
-    <span class="span">[alcaras@linux-pc ~]:$</span>
-    <span class="type-it">**********</span>
+    <span class="span">[adnan@linux-pc ~]:$</span>
+    <span class="type-it">dnf update</span>
     <br />
-    <span class="spanroot">[root@linux-pc ~]:$</span>
-    <span class="type-it">less apresentacao.txt</span>
     <div class="result">
-      <span id="span2"> root ######## Olá sou José Augusto #########</span>
+      <span id="span2"> ola mundo root</span>
       <br />
     </div>
   </div>
@@ -167,17 +163,8 @@
     span
       .html()
       .replace(
-        /alcaras/,
+        /adnan/,
         '<span style="color: #3498db ; font-weight: bold; ">$&</span>'
-      )
-  )
-  var span = $('.spanroot')
-  span.html(
-    span
-      .html()
-      .replace(
-        /root/,
-        '<span style="color: #00cc00 ; font-weight: bold; ">$&</span>'
       )
   )
 
@@ -215,10 +202,8 @@
   setInterval(Timer, 3500)
   function Timer() {
     $('.result').show()
-  
   }
 
- 
   //controllers :D
   $('button.close').click(function () {
     $('.window').hide()
@@ -242,5 +227,13 @@
     $('.window').addClass('windowmin')
     $('.windowmin').removeClass('window')
   })
-</script>	
+</script>
+
+	
+<div>
+    <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
+</div>	
+
+
+	
 	
