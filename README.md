@@ -1,14 +1,16 @@
+<h4 align="center"> 
+	🚧  Perfil 🚀 Em construção...  🚧
+</h4>
 ## Hi! Sou José Augusto Alcarás
- <div>
-<div align="center">
+
+<div>	
+<div align="left">
   <a href="https://github.com/JAlcaras">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
 </div>
 </div>
-<h4 align="center"> 
-	🚧  Perfil 🚀 Em construção...  🚧
-</h4>
+
 
 
 <iframe width="100%" height="100%" 
