@@ -1,4 +1,4 @@
-## Hi!sou José Augusto Alcarás
+## Hi! Sou José Augusto Alcarás
  <div>
 <div align="center">
   <a href="https://github.com/JAlcaras">
