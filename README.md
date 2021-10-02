@@ -22,5 +22,9 @@
 - ⚡ Fun fact: ...
 -->
  
+[![Product Name Screen Shot][product-screenshot]](https://github.com/JAlcaras/JAlcaras/blob/main/index_temrminal_v2.html)
+
+	
+	
  ### Example of a [Terminal](http://htmlpreview.github.com/?https://github.com/JAlcaras/JAlcaras/blob/main/index_temrminal_v2.html)    
 ![Alt text](media/movie1.gif?raw=true "Title")
