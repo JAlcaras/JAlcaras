@@ -11,13 +11,11 @@
 </div>
 </div>
 
+	
+<div>
+    <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
+</div>	
 
-
-<iframe width="100%" height="100%" 
-        src="http://alcaras.42web.io/?i=1" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
- 
 <!-- Css -->
 <style>
   @import 'https://fonts.googleapis.com/css?family=Ubuntu';
@@ -131,25 +129,29 @@
 </style>
 <!-- HTML -->
 <h1 class="afterclose">
-  You Closed Terminal ! --> <button class="open">reopen ?</button>
+  Você fechou o terminal ! --> <button class="open"><a href="https://github.com/JAlcaras"> Redirecionar para o git ?</a></button>
 </h1>
 <div class="window">
   <div class="controls">
     <button class="buttons close" id="close"></button>
     <button class="buttons maximize" href="#"></button>
     <button class="buttons minimize" href="#"></button>
-    <div class="title">Gnome Terminal</div>
+    <div class="title">Terminal</div>
   </div>
   <div class="bash">
     <!-- Terminal sem comando -->
-    <span class="span">[adnan@linux-pc ~]:$</span>
+    <span class="span">[alcaras@linux-pc ~]:$</span>
+    <span class="type-it">sudo su</span>
+    
     <br />
     <!-- Terminal com comando -->
-    <span class="span">[adnan@linux-pc ~]:$</span>
-    <span class="type-it">dnf update</span>
+    <span class="span">[alcaras@linux-pc ~]:$</span>
+    <span class="type-it">**********</span>
     <br />
+    <span class="spanroot">[root@linux-pc ~]:$</span>
+    <span class="type-it">less apresentacao.txt</span>
     <div class="result">
-      <span id="span2"> ola mundo root</span>
+      <span id="span2"> root ######## Olá sou José Augusto #########</span>
       <br />
     </div>
   </div>
@@ -165,8 +167,17 @@
     span
       .html()
       .replace(
-        /adnan/,
+        /alcaras/,
         '<span style="color: #3498db ; font-weight: bold; ">$&</span>'
+      )
+  )
+  var span = $('.spanroot')
+  span.html(
+    span
+      .html()
+      .replace(
+        /root/,
+        '<span style="color: #00cc00 ; font-weight: bold; ">$&</span>'
       )
   )
 
@@ -204,8 +215,10 @@
   setInterval(Timer, 3500)
   function Timer() {
     $('.result').show()
+  
   }
 
+ 
   //controllers :D
   $('button.close').click(function () {
     $('.window').hide()
@@ -230,12 +243,6 @@
     $('.windowmin').removeClass('window')
   })
 </script>
-
-	
-<div>
-    <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
-</div>	
-
 
 	
 	
