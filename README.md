@@ -8,12 +8,8 @@
   <a href="https://github.com/JAlcaras">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
-</div>
-</div>
 
-	
-
-  ## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
+## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
 	
 
 <!-- Css -->
