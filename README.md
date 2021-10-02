@@ -1,17 +1,6 @@
 <h4 align="center"> 
 	🚧  Perfil 🚀 Em construção...  🚧
 </h4>
-## Hi! Sou José Augusto Alcarás
-
-<div>	
-<div align="left">
-  <a href="https://github.com/JAlcaras">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
-
-## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
-	
-
 <!-- Css -->
 <style>
   @import 'https://fonts.googleapis.com/css?family=Ubuntu';
@@ -239,6 +228,20 @@
     $('.windowmin').removeClass('window')
   })
 </script>
+
+
+## Hi! Sou José Augusto Alcarás
+
+<div>	
+<div align="left">
+  <a href="https://github.com/JAlcaras">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
+
+## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
+	
+
+
 
 	
 	
