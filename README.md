@@ -239,7 +239,9 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
 
 ## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
-	
+
+<img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">	  
+	  
 
 
 
