@@ -1,6 +1,8 @@
 <h4 align="center"> 
 	🚧  Perfil 🚀 Em construção...  🚧
 </h4>
+<img align="right" alt="ze" height="35" style="border-radius:50px;" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">	  
+	  
 <!-- Css -->
 <style>
   @import 'https://fonts.googleapis.com/css?family=Ubuntu';
@@ -240,8 +242,7 @@
 
 ## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
 
-<img align="right" alt="ze" height="30" style="border-radius:50px;" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">	  
-	  
+
 
 
 
