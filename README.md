@@ -1,250 +1,97 @@
-<h4 align="center"> 
-	🚧  Perfil 🚀 Em construção...  🚧
-</h4>
-<img align="right" alt="ze" height="35" style="border-radius:50px;" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">	  
-	  
-<!-- Css -->
-<style>
-  @import 'https://fonts.googleapis.com/css?family=Ubuntu';
-  body {
-    background: #bdc3c7;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 17px;
-  }
+# Olá, eu sou José Augusto 👋
 
-  .window {
-    width: 600px;
-    margin: 75px auto;
-    background: #2c3e50;
-    height: 350px;
-    border-radius: 5px;
-    display: relative;
-    box-shadow: 10px 10px 10px #888888;
-  }
+### DevOps Engineer | Cloud • Automation • Infrastructure
 
-  .afterclose {
-    color: #34495e;
-    display: none;
-    text-align: center;
-  }
+Trabalho com infraestrutura, automação e operações, criando ambientes mais confiáveis, reproduzíveis e fáceis de manter.
 
-  .open {
-    color: #fff;
-    padding: 15px;
-    background: #2ecc71;
-    border-radius: 4px;
-    border: none;
-  }
+Grande parte do meu trabalho atualmente acontece em **repositórios privados e ambientes corporativos**, por isso este perfil público funciona principalmente como meu espaço para estudos, experimentos, ferramentas e projetos pessoais.
 
-  .bash {
-    width: 600px;
-    background: #34495e;
-    height: 310px;
-    border-radius: 5px;
-    top: 40px;
-    display: absolute;
-    color: #fff;
-  }
+---
 
-  /* effected by controllers */
+## 🛠️ Tecnologias & Ferramentas
 
-  .windowmax {
-    width: 100%;
-    margin: auto;
-    background: #2c3e50;
-    height: 1000px;
-    border-radius: 5px;
-    display: relative;
-  }
+### DevOps & Infrastructure
 
-  .windowmin {
-    width: 300px;
-    height: 45px;
-    background: #2c3e50;
-    border-radius: 5px;
-    bottom: 0;
-    position: fixed;
-  }
+![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge\&logo=linux\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge\&logo=kubernetes\&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge\&logo=terraform\&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge\&logo=ansible\&logoColor=white)
 
-  .bashmax {
-    display: absolute;
-    width: 100%;
-    background: #34495e;
-    height: 960px;
-    border-radius: 5px;
-    bottom: 0;
-    color: #fff;
-  }
+### Cloud & CI/CD
 
-  /* !--end--! */
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonwebservices\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge\&logo=gitlab\&logoColor=white)
 
-  .buttons {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    float: right;
-    margin: 13px 4px;
-    border: none;
-  }
+### Scripting & Automation
 
-  .close {
-    background: #e74c3c;
-  }
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnubash\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge\&logo=yaml\&logoColor=white)
 
-  .maximize {
-    background: #f1c40f;
-  }
+---
 
-  .minimize {
-    background: #2ecc71;
-  }
+## ⚙️ O que faço
 
-  .result {
-    display: none;
-  }
+* Infraestrutura como código
+* Automação de ambientes e processos
+* Containers e orquestração
+* Pipelines de CI/CD
+* Administração de sistemas Linux
+* Cloud infrastructure
+* Observabilidade e troubleshooting
+* Padronização de ambientes e deployments
 
-  .controls {
-    height: 40px;
-    top: 0;
-  }
+---
 
-  .title {
-    color: #fff;
-    font-weight: bold;
-    padding: 10px;
-  }
-</style>
-<!-- HTML -->
-<h1 class="afterclose">
-  Você fechou o terminal ! --> <button class="open"><a href="https://github.com/JAlcaras"> Redirecionar para o git ?</a></button>
-</h1>
-<div class="window">
-  <div class="controls">
-    <button class="buttons close" id="close"></button>
-    <button class="buttons maximize" href="#"></button>
-    <button class="buttons minimize" href="#"></button>
-    <div class="title">Terminal</div>
-  </div>
-  <div class="bash">
-    <!-- Terminal sem comando -->
-    <span class="span">[alcaras@linux-pc ~]:$</span>
-    <span class="type-it">sudo su</span>
-    
-    <br />
-    <!-- Terminal com comando -->
-    <span class="span">[alcaras@linux-pc ~]:$</span>
-    <span class="type-it">**********</span>
-    <br />
-    <span class="spanroot">[root@linux-pc ~]:$</span>
-    <span class="type-it">less apresentacao.txt</span>
-    <div class="result">
-      <span id="span2"> root ######## Olá sou José Augusto #########</span>
-      <br />
-    </div>
-  </div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js"></script>
-<!-- Scripts -->
-<script>
-  $('.type-it').typeIt({})
-  //detected terminal words
-  var span = $('.span')
-  span.html(
-    span
-      .html()
-      .replace(
-        /alcaras/,
-        '<span style="color: #3498db ; font-weight: bold; ">$&</span>'
-      )
-  )
-  var span = $('.spanroot')
-  span.html(
-    span
-      .html()
-      .replace(
-        /root/,
-        '<span style="color: #00cc00 ; font-weight: bold; ">$&</span>'
-      )
-  )
+## 🚀 Atualmente
 
-  var span = $('.span')
-  span.html(
-    span
-      .html()
-      .replace(
-        /~/,
-        '<span style="color: #2ecc71 ; font-weight: bold; ">$&</span>'
-      )
-  )
+```bash
+$ whoami
+DevOps Engineer
 
-  var span = $('#span2')
-  span.html(
-    span
-      .html()
-      .replace(
-        /root/,
-        '<span style="color: #e74c3c ; font-weight: bold; ">$&</span>'
-      )
-  )
+$ focus
+automation | cloud | infrastructure | reliability
 
-  var span = $('#span2')
-  span.html(
-    span
-      .html()
-      .replace(
-        /Error/,
-        '<span style="color: #e74c3c ; font-weight: bold; ">$&</span>'
-      )
-  )
+$ status
+always learning
+```
 
-  //result proccess
-  setInterval(Timer, 3500)
-  function Timer() {
-    $('.result').show()
-  
-  }
+---
 
- 
-  //controllers :D
-  $('button.close').click(function () {
-    $('.window').hide()
-    $('.afterclose').fadeIn('fast')
-  })
+## 📊 GitHub
 
-  $('button.open').click(function () {
-    $('.window').show()
-    $('.afterclose').hide()
-  })
+<p align="center">
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=github_dark&hide_border=true"
+  />
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&theme=github_dark&hide_border=true"
+  />
+</p>
 
-  $('button.maximize').click(function () {
-    $('.window').addClass('windowmax')
-    $('.bash').addClass('bashmax')
-    $('.windowmax').removeClass('window')
-    $('.bashmax').removeClass('bash')
-  })
+> A maior parte da minha atividade profissional acontece em repositórios privados.
 
-  $('button.minimize').click(function () {
-    $('.bash').remove()
-    $('.window').addClass('windowmin')
-    $('.windowmin').removeClass('window')
-  })
-</script>
+---
 
+## 🧪 Este perfil
 
-## Hi! Sou José Augusto Alcarás
+Por aqui pretendo concentrar projetos relacionados a:
 
-<div>	
-<div align="left">
-  <a href="https://github.com/JAlcaras">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JAlcaras&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JAlcaras&layout=compact&langs_count=7&theme=dark"/>
+* DevOps labs
+* Terraform modules
+* Docker / Kubernetes examples
+* Shell scripts
+* Automação
+* Cloud experiments
+* Homelab
+* Ferramentas úteis para operações
 
-## <iframe src="http://alcaras.42web.io/?i=1" scrolling="no" frameborder="no"></iframe>
+---
 
+### `$ uptime`
 
-
-
-
-	
-	
+Construindo, automatizando e melhorando sistemas — um deploy de cada vez. ⚡
